@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam'AI</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<header>
-    <h1>Welcome to My Website</h1>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="blog/first-post.html">Blog</a>
-    </nav>
-</header>
+    <title>Dwivedi's Blog</title>
+  </head>
 
-<section>
+  <body>
 
-    <h2>Hello!</h2>
+    <!-- Background code for .mp4 format as per furutre needs.
+    <video autoplay muted loop playsinline id="background-video">
+      <source src="images/1.mp4" type="video/mp4">
+    </video>
 
-    <p>
-        I am <strong>Shivam Dwivedi</strong>, I married to the most beautiful lady Vidushi Bajpai.
-    </p>
+    <div class="video-overlay"></div> 
+      
+    <div class="bg"></div> -->
 
-    <p>
-        This website is hosted for free using GitHub Pages.
-    </p>
+    <header class="header">
+       <!-- Logo -->
+      <div class="nav__logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Dwivedi's Blog Logo" />
+        </a>
+      </div>
 
-</section>
+      <nav class="nav">
 
-<footer>
-    <p>© 2026 Shivam Dwivedi</p>
-</footer>
+        <!-- Hamburger Menu -->
+        <a href="#" class="nav__hamburger">
+          <span class="nav__hamburger__line"></span>
+          <span class="nav__hamburger__line"></span>
+          <span class="nav__hamburger__line"></span>
+        </a>
 
-</body>
+        <!-- Navigation Menu -->
+        <div class="nav__menu">
+          <ul>
+           
+            <li class="nav__menu__link">
+              <a href="about.html">About</a>
+            </li>
+
+            <li class="nav__menu__link">
+              <a href="ai-ml/ai-ml.html">AI/ML</a>
+            </li>
+
+            <li class="nav__menu__link">
+              <a href="mathematics/mathematics.html">Mathematics</a>
+            </li>
+
+            <li class="nav__menu__link">
+              <a href="finance/finance.html">Finance</a>
+            </li>
+
+            <li class="nav__menu__link">
+              <a href="geopolitics/geopolitics.html">Geopolitics</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <!-- Search --> 
+        <div class="nav__search">
+          <button class="nav__search__button" aria-label="Open search" aria-expanded="false">
+            <svg class="nav__search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"> <circle cx="11" cy="11" r="7"></circle> <line x1="16.5" y1="16.5" x2="21" y2="21"></line> </svg>
+          </button>
+          <!-- Search Box --> 
+          <div class="nav__search__box">
+            <input type="search" class="nav__search__input" placeholder="Search blogs..." aria-label="Search blogs" autocomplete="off" />
+            <!-- Search Results --> 
+            <div class="nav__search__results"></div>
+          </div>
+        </div>  
+
+      </nav>
+
+    </header>
+
+
+  </body>
+
+
 </html>

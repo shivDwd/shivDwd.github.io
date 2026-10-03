@@ -1,0 +1,20 @@
+[
+  {
+    "title": "What is a Transformer?",
+    "url": "ai-ml/transformer.html",
+    "category": "AI-ML",
+    "keywords": "transformer attention deep learning"
+  },
+  {
+    "title": "Understanding Linear Algebra",
+    "url": "mathematics/linear-algebra.html",
+    "category": "Mathematics",
+    "keywords": "vectors matrices eigenvalues"
+  },
+  {
+    "title": "Understanding RSI",
+    "url": "finance/rsi.html",
+    "category": "Finance",
+    "keywords": "RSI technical analysis stock market"
+  }
+]
